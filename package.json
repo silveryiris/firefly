@@ -1,0 +1,21 @@
+{
+  "name": "silvery-firefly",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony ./index.js"
+  },
+  "bin": {
+    "firefly": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "csvtojson": "^2.0.10",
+    "esm": "^3.2.25"
+  }
+}
